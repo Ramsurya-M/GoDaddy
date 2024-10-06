@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GoDaddy</title>
+        <link rel="icon" href="GoDaddy.svg">
+        <style>
+        .head{
+            background-color: #282828;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .go{
+            color: white;
+            padding-right: 50px;
+            padding: 15px;
+            text-align: start;
+            font-size: x-large;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+        img{
+            height: 40px;
+            margin-left: 12px;
+            padding: 10px 2px;
+            width: 40px;
+        }
+        .ss{
+            display: flex;
+        }
+        .godaddy{
+            width: 200px;
+            margin: 0;
+        }
+        .mm{
+            display: flex;
+            font-size: large;
+            color: white;
+            padding: 20px;
+            text-align: start;
+            justify-content: end;
+            width: 100%;
+        }
+        .nav{
+            height: 20px;
+            display: flex;
+            /* justify-content: center; */
+            padding: 35px;
+        }
+        .dom{
+            background-color: aqua;
+        }
+        .kk{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .da{
+            width: 250px;
+        }
+        .imm{
+            height: 15px;
+            padding-top: 4px;
+            margin: 0;
+        }
+        #troll{
+            margin-left: 10px;
+            height: 15px;
+            padding-top: 4px;
+            margin: 0;
+        }
+        .im{
+            height: 15px;
+            padding-top: 4px;
+            padding-right: 250px;
+            margin: 0;
+        }
+        .phone{
+            width: 400px;
+            height: 500px;
+            display: flex;
+            justify-content: flex-end;
+            padding-bottom: 350px;
+        }
+        .txt1{
+            padding-left: 90px;
+            margin-left: 5px;
+            font-size: large;
+        }
+        .txt2{
+            font-size: xx-large;
+            padding-left: 30px;
+        }
+        .back{
+            background-image: url("Domain-Name-Generator-1920px.png");
+            background-repeat: no-repeat;
+            height: 200px;
+            margin: 30px;
+            padding: 70px;
+        }
+        #txt3{
+            font-size: large;
+        }
+        #txt4{
+            font-size: 40px;
+            font-style: italic;
+            font-weight: 500;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .search{
+            width: 300px;
+            height: 45px;
+            border-radius: 0;
+            border: none;
+        }
+        #inp{
+            width: 100px;
+            height: 45px;
+            border: none;
+            background-color: black;
+            color: white;
+        }
+        .txt5{
+            text-align: center;
+            font-size: 50px;
+        }
+        .txt6{
+            text-align: center;
+            font-size: 20px;
+        }
+        .box{
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 30px;
+            margin: 20px;
+        }
+        .box1{
+            border-style: solid;
+            border-collapse: collapse;
+            border-width: thin;
+            border-color:#c8d1ce;
+            padding: 40px;
+        }
+        .txt7{
+            font-size: 15px;
+        }
+        .txt8{
+            text-align: center;
+            font-size: 50px;
+        }
+        .tips{
+            display: flex;
+        }
+        .img1{
+            width: 550px;
+            height: 450px;
+            margin-left: 50px;
+        }
+        .txt9{
+            display: flex;
+        }
+        .txt10{
+            margin: 40px;
+            font-size: 20px;
+        }
+        .txt11{
+            font-size: 40px;
+        }
+        .txt12{
+            text-align: center;
+            font-size: 50px;
+        }
+        .txt13{
+            text-align: center;
+            font-size: 20px;
+            margin: 20px 350px;
+        }
+        .txt14{
+            font-size: 20px;
+        }
+        .immm{
+            display: flex;
+        }
+        .img2{
+            width: 600px;
+            height: fit-content;
+            margin-right: 50px;
+        }
+        .brand{
+            margin-right: 80px;
+            margin-left: 40px;
+        }
+        .brand1{
+            margin: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .txt15{
+            margin-top: 60px;
+            text-align: center;
+            font-size: x-large;
+        }
+        .brand2{
+            margin: 200px;
+            margin-top: 100px;
+            margin-bottom: 70px;
+            font-size: 30px;
+        }
+        .brand3{
+            display: flex;
+            justify-content: end;
+        }
+        .brand4{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .mag{
+            margin: 0;
+            padding: 0;
+            width: 20px;
+        }
+        .dis{
+            margin-left: 100px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
+        }
+        .footer{
+            background-color: black;
+        }
+        .foot1{
+            display: flex;
+            color: white;
+            padding: 7px;
+        }
+        .photo{
+            height: 20px;
+        }
+        .txt17{
+            padding-top: 10px;
+            font-size: 15px;
+        }
+        .foot2{
+            color: white;
+            display: flex;
+            margin-top: 20px;
+            font-weight: 900;
+            font-size: large;
+        }
+        /* .foot3{
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            font-size: small;
+        } */
+         .foot3{
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            padding-bottom: 70px;
+         }
+         .txt18{
+            color: white;
+            font-size: small;
+         }
+         .txt19{
+            margin-top: 20px;
+         }
+         .txt20{
+            color: white;
+            padding-top: 10px;
+         }
+         .txt21{
+            color: white;
+            padding-top: 10px;
+         }
+         .foot4{
+            display: flex;
+         }
+         .img3{
+            width: 200px;
+            margin: 0;
+            padding: 0;
+         }
+         .img4{
+            margin: 0;
+            width: 30px;
+            padding: 0;
+         }
+         .foot5{
+            margin:20px 20px 0;
+            color: white;
+         }
+         .foot6{
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+         }
+         .foot7{
+            font-size: 15px;
+            padding-bottom: 40px;
+         }
+         .foot8{
+            display: flex;
+            justify-content: flex-end;
+            justify-content: space-between;
+            margin: 0;
+         }
+         .img5{
+            width: 20px;
+            display: flex;
+            padding: 0px 10px;
+         }
+         .img6{
+            margin-left: 650px;
+         }
+    </style>
+    </head>
+    <body>
+        <div>
+            <div class="head">
+                <div class="ss">
+                    <!-- <img src="godaddy-svgrepo-com (1).svg" alt> -->
+                    <img class="godaddy" src="GoDaddy-White-Logo.wine.svg" alt>
+                    <!-- <p class="go">GoDaddy</p> -->
+                </div>
+                <div class="mm">
+                    <p>Contact
+                        me</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <p>Help</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <p>Sign in</p>
+                    <img class="imm" src="down-arrow-backup-12-svgrepo-com.svg"
+                        alt>
+                    <img id="troll" src="grocery-trolley-svgrepo-com.svg" alt>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="da">
+                    Domain Tools and Services
+                </div>
+                <div class="kk">
+                    Generate Domain
+                    Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Find a Domain Owner
+                    (WHOIS)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    More
+                    <img class="im" src="down-arrow-backup-2-svgrepo-com.svg"
+                        alt>
+                </div>
+                <p class="dom"></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div><hr>
+            <div class="back">
+                <span id="txt3">FREE Domain Name Generator</span><br><br>
+                <span id="txt4">Get creative domain name ideas</span><br><br>
+                <pre>Tell us about your idea and GoDaddy AI Domain Search will create
+a targeted list of domain names for you.</pre><br><br>
+                <input type="text" class="search"
+                    placeholder="&nbsp;&nbsp;Tell us about your idea" form="inp"
+                    value><button
+                    id="inp">Search</button>
+            </div>
+            <div>
+                <h1 class="txt5">Here’s how to get the best domain name <br>
+                    suggestions.</h1><br>
+                <p class="txt6">It’s easier than you think with our domain name
+                    generator tool.</p>
+            </div><br><br><br>
+            <div class="box">
+                <div class="box1"><b>1 <br>
+                        Enter words describing your business or
+                        idea.</b><br><br>
+                    <p class="txt7">These might be your name, location or
+                        industry.
+                        The best website names are catchy and memorable,
+                        so don’t be afraid to unleash your creativity.</p></div>
+                <div class="box1"><b>2 <br>
+                        Choose one or more domain names.</b><br><br>
+                    <p class="txt7">Our tool will create a list of names
+                        using various prefixes and suffixes.
+                        Register multiple domains to protect your
+                        brand.</p></div>
+                <div class="box1"><b>3 <br>
+                        Complete the registration process.</b><br><br>
+                    <p class="txt7">Domain name registration is pretty
+                        easy and only takes a few minutes.
+                        When you’re all finished, you’re free to start
+                        using your new domain names.</p></div>
+            </div>
+            <br><br><br>
+            <div>
+                <h1 class="txt8">Tips for finding <br> available domain
+                    names.</h1>
+                <br><br>
+            </div>
+            <div class="tips">
+                <img class="img1" src="img-feat-domain_availability.jpg" alt>
+                <p class="txt10">
+                    <b class="txt11">Get smart with synonyms.</b><br><br>
+                    Try using variations of a word you want in your domain to
+                    get
+                    more options. For example, if you want a domain that
+                    includes
+                    the word mechanic, also type closely related words, like
+                    repair
+                    or automotive, into the search bar. <br><br>
+                    <b class="txt11">Mix up word combinations.</b><br><br>
+                    Let's take another look at that domain for mechanics. If you
+                    can't think of any catchy synonyms, you could still dream up
+                    a
+                    few word combinations that mean the same thing, like fix
+                    cars or
+                    auto shop.</p>
+            </div><br><br>
+            <div>
+                <p class="txt12"><b>Once you register a <br>domain, take the
+                        next step.</b></p><br>
+                <p class="txt13">With your ideas and creativity — and our domain
+                    name
+                    generator tool — you’ll have a great domain before you know
+                    it. But what comes next? Let’s take a look.</p><br><br>
+            </div>
+            <div class="brand1">
+                <div class="brand">
+                    <p class="txt11"><b>Use your domain as your brand
+                            name.</b></p><br>
+                    <p class="txt14">Once you have a domain you love, consider
+                        using it for
+                        your
+                        business name, if you don't have one already (tip: make
+                        sure
+                        you also set up social media usernames with your new
+                        brand
+                        name). If you'd rather start by searching for your
+                        business
+                        name first, we've still got your back. Take a look at
+                        our
+                        Business Name Generator.</p>
+                    <br>
+                    <p class="txt11"><b>Start building your brand.</b></p>
+                    <br>
+                    <p class="txt14">Using your new domain for a website is a
+                        great idea — but
+                        keep going. With domain-based Professional Email, you
+                        establish greater credibility and reinforce your new
+                        brand with every message you send.</p>
+                </div>
+                <div>
+                    <img class="img2" src="img-feat-pro_email.jpg" alt>
+                </div>
+            </div>
+
+            <div class="txt15">
+                <h1>Domain Name Generator <br> FAQ</h1>
+            </div>
+
+            <div class="brand2">
+                <hr>
+                <div class="brand4">
+                    <div class="txt16"><span>How does the domain name generator
+                            work?</span>
+                    </div>
+                    <div class="imgg"><img class="mag"
+                            src="down-arrow-backup-2-svgrepo-com.svg" alt>
+                    </div></div>
+                <hr>
+                <div class="brand4">
+                    <div class="txt16"><span>How do I create a catchy domain
+                            name?</span>
+                    </div>
+                    <div class="imgg"><img class="mag"
+                            src="down-arrow-backup-2-svgrepo-com.svg" alt>
+                    </div></div>
+                <hr>
+                <div class="brand4">
+                    <div class="txt16"><span>What are the best alternatives to a
+                            .com domain?</span>
+                    </div>
+                    <div class="imgg"><img class="mag"
+                            src="down-arrow-backup-2-svgrepo-com.svg" alt>
+                    </div></div>
+            </div>
+
+            <a class="dis" href>Disclaimers</a><br><br><br>
+
+            <div class="footer">
+                <div class="foot1">
+                    <img class="photo" src="godaddy-svgrepo-com (1).svg" alt>
+                    <br>
+                    <img class="photo"
+                        src="right-arrow-backup-2-svgrepo-com.svg" alt>
+                    <br>
+                    <span class="txt17">Domains</span>
+                    <br>
+                    <img class="photo"
+                        src="right-arrow-backup-2-svgrepo-com.svg" alt>
+                    <br>
+                    <span class="txt17">Domain Name Generator</span>
+                </div>
+                <hr>
+
+                <div class="foot3">
+                    <div class="txt18">
+                        <p class="foot2 txt19">About GoDaddy</p>
+                        <p class="txt19">About Us</p>
+                        <p class="txt19">Annual Returns</p>
+                        <p class="txt19">Careers</p>
+                        <p class="txt19">Contact Us</p>
+                        <p class="txt19">Corporate Social Responsibility</p>
+                        <p class="txt19">GoDaddy Blog</p>
+                        <p class="txt19">Investor Relations</p>
+                        <p class="txt19">Legal</p>
+                        <p class="txt19">Newsroom</p>
+                        <p class="txt19">Trust Center</p>
+                    </div>
+                    <div class="txt18">
+                        <p class="foot2 txt19">Support</p>
+                        <p class="txt19">Product Support</p>
+                        <p class="txt19">Report Abuse</p>
+                        <p class="txt19">Resources</p>
+                    </div>
+                    <div class="txt18">
+                        <p class="foot2 txt19">Resources</p>
+                        <p class="txt19">Webmail</p>
+                        <p class="txt19">WHOIS</p>
+                        <p class="txt19">ICANN Confirmation</p>
+                        <p class="txt19">Designers & Developers</p>
+                        <p class="txt19">Redeem Code</p>
+                        <p class="txt19">Product Catalog</p>
+                        <p class="txt19">Customer Testimonials</p>
+                        <p class="txt19">Business Name Generator</p>
+                    </div>
+                    <div class="txt18">
+                        <p class="foot2 txt19">Partner Programs</p>
+                        <p class="txt19">Affiliates</p>
+                        <p class="txt19">Reseller Programs</p>
+                        <p class="txt19">GoDaddy Pro</p>
+                    </div>
+                    <div class="txt18">
+                        <p class="foot2 txt19">Account</p>
+                        <p class="txt19">My Products</p>
+                        <p class="txt19">Renewals & Billing</p>
+                        <p class="txt19">Create Account</p>
+                    </div>
+                    <div class="txt18">
+                        <p class="foot2 txt19">Shopping</p>
+                        <p class="txt19">Buy a Domain</p>
+                        <p class="txt19">Websites</p>
+                        <p class="txt19">Business Email</p>
+                        <p class="txt19">WordPress</p>
+                        <p class="txt19">Hosting</p>
+                        <p class="txt19">Web Security</p>
+                        <p class="txt19">Logo Generator</p>
+                    </div>
+                </div>
+
+                <div class="foot4">
+                    <img class="img3" src="GoDaddy-White-Logo.wine.svg" alt>
+                    <br>
+                    <span class="txt20">India - English</span>
+                    <img class="img4" src="nav-arrow-up-svgrepo-com (1).svg"
+                        alt>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="txt21">INR</span>
+                    <img class="img4" src="currency-rupee-svgrepo-com.svg" alt>
+                    <img class="img4" src="nav-arrow-up-svgrepo-com (1).svg" alt>
+                    <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+                    <div class="foot8">
+                    <img class="img5 img6" src="facebook-svgrepo-com.svg" alt="">
+                    <img class="img5" src="instagram-167-svgrepo-com.svg" alt="">
+                    <img class="img5" src="youtube-168-svgrepo-com.svg" alt="">
+                    </div>
+                </div>
+                <br>
+                <hr>
+
+                <div class="foot5">
+                    <div class="foot6">
+                        <p>Copyright © 1999 - 2024 GoDaddy Operating Company,
+                            LLC.
+                            All Rights Reserved. The GoDaddy word mark is a
+                            registered trademark of GoDaddy Operating <br>
+                            Company, LLC
+                            in the US and other countries. The “GO” logo is a
+                            registered trademark of GoDaddy.com, LLC in the
+                            US.</p>
+                        <span>Legal</span>
+                        <span>Privacy Policy</span>
+                        <span>Cookies</span>
+                    </div>
+                    <br><br>
+                    <p class="foot7">Use of this Site is subject to express terms of use. By
+                        using this site, you signify that you agree to be bound
+                        by these Universal Terms of Service.</p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </body>
+</html>
